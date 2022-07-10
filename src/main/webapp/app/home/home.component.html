@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-md-3">
+    <span class="hipster img-fluid rounded"></span>
+  </div>
+
+  <div class="col-md-9">
+    <h1 class="display-4"><span apbTranslate="home.title">Welcome to Git Push</span></h1>
+    <p class="lead">
+      <span><q>Creating new, innovative, and valuable products is only limited by the technology that you have to work with!</q></span>
+    </p>
+    <p class="lead" apbTranslate="home.subtitle">
+      Git Push - Made with 💙 and powered by Brillium&#39;s AppBrahma MVP Platform - the Baap of Apps.
+    </p>
+    <div [ngSwitch]="account !== null">
+      <div class="alert alert-success" *ngSwitchCase="true">
+        <span id="home-logged-message" *ngIf="account" apbTranslate="home.logged.message" [translateValues]="{ username: account.login }"
+          >You are logged in as user "{{ account.login }}".</span
+        >
+      </div>
+
+      <div class="alert alert-warning" *ngSwitchCase="false">
+        <span apbTranslate="global.messages.info.authenticated.prefix">If you want to </span>
+        <a class="alert-link" (click)="login()" apbTranslate="global.messages.info.authenticated.link">sign in</a
+        ><span apbTranslate="global.messages.info.authenticated.suffix"
+          >, you can try the default accounts:<br />- Administrator (login="brahma" and password="brahma@appbrahma") <br />- User
+          (login="manasputhra" and password="manasputhra@appbrahma").</span
+        >
+      </div>
+
+      <div class="alert alert-warning" *ngSwitchCase="false">
+        <span apbTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>&nbsp;
+        <a class="alert-link" routerLink="account/register" apbTranslate="global.messages.info.register.link">Register a new account</a>
+      </div>
+    </div>
+
+    <p apbTranslate="home.question">If you have any question on Git Push:</p>
+
+    <ul>
+      <li>
+        <a href="https://www.git.in/git-push" target="_blank" rel="noopener noreferrer" apbTranslate="home.link.homepage"
+          >Git Push homepage</a
+        >
+      </li>
+      <li>
+        <a href="https://www.git.in/git-push" target="_blank" rel="noopener noreferrer" apbTranslate="home.link.companyhomepage"
+          >Git Technologies homepage</a
+        >
+      </li>
+      <li>
+        <a href="https://www.git.in/git-push" target="_blank" rel="noopener noreferrer" apbTranslate="home.link.follow"
+          >Follow Git Push on Twitter</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

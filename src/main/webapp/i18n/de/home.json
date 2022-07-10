@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "Willkommen, Git Push",
+    "subtitle": "Git Push - Made with 💙 and powered by Brillium&#39;s AppBrahma MVP Platform - the Baap of Apps.",
+    "logged": {
+      "message": "Sie sind als Benutzer \"{{username}}\" angemeldet."
+    },
+    "question": "Wenn Sie Fragen zu Git Push haben:",
+    "link": {
+      "homepage": "Git Push Hauptseite",
+      "companyhomepage": "Git Technologies Homepage",
+      "stackoverflow": "Git Push auf Stack Overflow",
+      "bugtracker": "Git Push Fehlereinträge",
+      "chat": "Git Push Chat",
+      "follow": "kontaktieren Sie uns mit Git Push auf Twitter"
+    },
+    "like": "Wenn Sie Git Push mögen, vergessen Sie nicht uns einen Stern zu geben auf",
+    "github": "GitHub"
+  }
+}

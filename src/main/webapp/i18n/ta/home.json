@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "வரவேற்கிறோம் , ஜாவா Git Push !",
+    "subtitle": "Git Push - Made with 💙 and powered by Brillium&#39;s AppBrahma MVP Platform - the Baap of Apps.",
+    "logged": {
+      "message": "நீங்கள் பயனர் என பதிவு \"{{username}}\"."
+    },
+    "question": "Git Push மீது ஏதேனும் கேள்விகள் இருந்தால்:",
+    "link": {
+      "homepage": "Git Push முகப்புப்பக்கம்",
+      "companyhomepage": "Git Technologies Homepage",
+      "stackoverflow": "Git Push யின் Stack Overflow",
+      "bugtracker": "Git Push யின் bug tracker",
+      "chat": "Git Push யின் பொது பேச்சுயறை",
+      "follow": "தொடர்பு Git Push யின் Twitter"
+    },
+    "like": "Git Push-யை விரும்பினால்,நட்சத்திரம் கொடுக்க மறக்க வேண்டாம்",
+    "github": "GitHub"
+  }
+}

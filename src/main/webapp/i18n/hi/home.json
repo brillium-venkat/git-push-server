@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "Git Push पर आपका स्वागत है",
+    "subtitle": "Git Push - Made with 💙 and powered by Brillium&#39;s AppBrahma MVP Platform - the Baap of Apps.",
+    "logged": {
+      "message": "आप उपयोगकर्ता \"{{username}}\" के रूप में लॉग इन है।"
+    },
+    "question": "यदि आपको Git Push के बारें कोई भी सवाल है:",
+    "link": {
+      "homepage": "Git Push मुखपृष्ठ",
+      "companyhomepage": "Git Technologies Homepage",
+      "stackoverflow": "Git Push स्टैक ओवरफ़्लो",
+      "bugtracker": "Git Push बग tracker",
+      "chat": "Git Push सार्वजनिक चैट रूम",
+      "follow": "Git Push को ट्विटर पर फौलो करें"
+    },
+    "like": "यदि आपको Git Push पसंद है, तो हमें एक स्टार देना न भूलें",
+    "github": "GitHub पर"
+  }
+}

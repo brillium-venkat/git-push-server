@@ -1,0 +1,20 @@
+# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0.25
+    container_name: git-push-server
+    volumes:
+      #- git-push-server:~/volumes/docker/git-push-server/mysql/:/var/lib/mysql/
+      - ~/volumes/docker/git-push-server/mysql/:/var/lib/mysql/
+    environment:
+      - MYSQL_ROOT_PASSWORD=brillium@123
+      - MYSQL_DATABASE=GitPushServer
+      - MYSQL_ROOT_HOST=%
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    ports:
+      # - 127.0.0.1:3306:3306
+      - 3306:3306
+      # - 3306:3306
+    command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp
